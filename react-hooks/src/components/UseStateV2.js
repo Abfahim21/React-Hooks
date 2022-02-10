@@ -15,7 +15,7 @@ function UseStateV2() {
         <h3>Count: { count }</h3>
         <button onClick={()=>setCount(prevCount => prevCount+1)}>Increment</button>
         <button onClick={()=>setCount(prevCount => prevCount-1)}>Decrement</button>
-        <button onClick={()=>setCount(initialValue)}>Reset</button>
+        <button onClick={()=>setCount(initialValue)}>Reset to Zero</button>
         <button onClick={()=>IncrementTen()}>Increment 10</button>
     </div>
   )
