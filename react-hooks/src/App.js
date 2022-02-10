@@ -2,6 +2,7 @@ import './App.css';
 import UseStateV1 from './components/UseStateV1';
 import UseStateV2 from './components/UseStateV2';
 import UseStateV3 from './components/UseStateV3';
+import UseStateWithArray from './components/UseStateWithArray';
 import UseStateWithObject from './components/UseStateWithObject';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <UseStateV2/>
       <UseStateV3/>
       <UseStateWithObject/>
+      <UseStateWithArray/>
     </div>
   );
 }
