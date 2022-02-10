@@ -1,4 +1,5 @@
 import './App.css';
+import UseEffect from './components/UseEffect';
 import UseStateV1 from './components/UseStateV1';
 import UseStateV2 from './components/UseStateV2';
 import UseStateV3 from './components/UseStateV3';
@@ -13,6 +14,7 @@ function App() {
       <UseStateV3/>
       <UseStateWithObject/>
       <UseStateWithArray/>
+      <UseEffect/>
     </div>
   );
 }
