@@ -6,7 +6,7 @@ function UseEffect() {
 
     useEffect(()=>{
         document.title = (`Clicked ${count} Times !`)
-    })
+    }, [ count ])
   return (
     <div>
         <h2>UseEffect() Hooks after Every Render</h2>
