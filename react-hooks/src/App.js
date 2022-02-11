@@ -1,4 +1,5 @@
 import './App.css';
+import IntervaloHookCount from './components/IntervaloHookCount';
 import MouseUseEffect from './components/MouseUseEffect';
 import UseEffect from './components/UseEffect';
 import UseStateV1 from './components/UseStateV1';
@@ -17,6 +18,7 @@ function App() {
       <UseStateWithArray/>
       <UseEffect/>
       <MouseUseEffect/>
+      <IntervaloHookCount/>
     </div>
   );
 }
