@@ -1,4 +1,5 @@
 import './App.css';
+import MouseUseEffect from './components/MouseUseEffect';
 import UseEffect from './components/UseEffect';
 import UseStateV1 from './components/UseStateV1';
 import UseStateV2 from './components/UseStateV2';
@@ -15,6 +16,7 @@ function App() {
       <UseStateWithObject/>
       <UseStateWithArray/>
       <UseEffect/>
+      <MouseUseEffect/>
     </div>
   );
 }
