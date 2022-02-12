@@ -8,3 +8,6 @@ button{
 h2{
     color: rgb(2, 32, 32);
 }
+ul li {
+    list-style-type: none;
+}
