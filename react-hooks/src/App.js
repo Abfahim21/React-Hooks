@@ -2,6 +2,7 @@ import './App.css';
 import DataFetching from './components/DataFetching';
 import IntervaloHookCount from './components/IntervaloHookCount';
 import MouseUseEffect from './components/MouseUseEffect';
+import SingleDataFetching from './components/SingleDataFetching';
 import UseEffect from './components/UseEffect';
 import UseStateV1 from './components/UseStateV1';
 import UseStateV2 from './components/UseStateV2';
@@ -21,6 +22,7 @@ function App() {
       <MouseUseEffect/>
       <IntervaloHookCount/>
       <DataFetching/>
+      <SingleDataFetching/>
     </div>
   );
 }
